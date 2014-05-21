@@ -1,0 +1,24 @@
+{
+  "name": "wenn-diagram",
+  "version": "0.0.1",
+  "description": "Indie-rock band/wedding website.",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "connect": "^2.17.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vancetran/wenn-diagram.git"
+  },
+  "keywords": [],
+  "author": "Vance Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vancetran/wenn-diagram/issues"
+  },
+  "homepage": "http://wenndiagram.com"
+}

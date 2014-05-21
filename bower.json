@@ -1,0 +1,29 @@
+{
+  "name": "wenn-diagram",
+  "version": "0.0.1",
+  "authors": [
+    "Vance Tran <v@vancetran.com>"
+  ],
+  "description": "Indie-rock band/wedding website.",
+  "main": "app/index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "wedding",
+    "website"
+  ],
+  "license": "ISC",
+  "homepage": "http://wenndiagram.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1"
+  }
+}
