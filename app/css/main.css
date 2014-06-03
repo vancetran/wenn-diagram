@@ -5777,6 +5777,7 @@ body {
   background: url(../images/yosemite.jpg) top center no-repeat;
 }
 .content {
+  text-align: center;
   color: #fff;
 }
 .content h1 {
