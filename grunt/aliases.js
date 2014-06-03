@@ -5,7 +5,7 @@ module.exports = {
 		'concat',
 		'uglify',
 		'imagemin',
-		'less',
+		//'less:build',
 		'copy',
 		'usemin'
 	],

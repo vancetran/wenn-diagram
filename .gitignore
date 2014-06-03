@@ -1,4 +1,4 @@
-# Temp files
+# Temp & build files
 .tmp/
 build/
 
