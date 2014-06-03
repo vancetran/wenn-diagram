@@ -1,6 +1,6 @@
 module.exports = {
 	default: [
-		'clean:dist',
+		'clean:build',
 		'useminPrepare',
 		'concat',
 		'uglify',

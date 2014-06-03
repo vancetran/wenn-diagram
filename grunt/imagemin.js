@@ -1,10 +1,10 @@
 module.exports = {
-	dynamic: {
+	build: {
 		files: [{
 			expand: true,
-			cwd: '<%= appconfig.src %>/img/',
-			src: ['**/*.{png,jpg,gif}'],
-			dest: '<%= appconfig.dest %>/img/'
+			cwd: '<%= appconfig.src %>/images/',
+			src: ['**/*.{png,jpg,jpeg,gif}'],
+			dest: '<%= appconfig.dest %>/images/'
 		}]
 	}
 };
