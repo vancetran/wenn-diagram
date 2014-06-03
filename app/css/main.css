@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -5773,5 +5774,12 @@ button.close {
   }
 }
 body {
-  background: #ffaaee;
+  background: url(../images/yosemite.jpg) top center no-repeat;
+}
+.content {
+  color: #fff;
+}
+.content h1 {
+  font-size: 75px;
+  font-family: 'Poiret One', cursive;
 }

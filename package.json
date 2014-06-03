@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "Indie-rock band/wedding website.",
   "main": "app/index.html",
-  "dependencies": {},
+  "dependencies": {
+    "open": "0.0.5"
+  },
   "devDependencies": {
     "grunt": "~0.4.5",
     "connect": "~2.17.0",
