@@ -3,6 +3,7 @@ module.exports = {
 		'clean:build',
 		'useminPrepare',
 		'concat',
+		'cssmin',
 		'uglify',
 		'imagemin',
 		//'less:build',
