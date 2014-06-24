@@ -1,4 +1,5 @@
-# Temp & build files
+app/bower_components
+node_modules
 .tmp/
 build/
 
@@ -9,7 +10,7 @@ build/
 
 
 # ---------------------------------------------------------
-# Mac OS X poop
+# Mac OS X debris
 .DS_Store
 .AppleDouble
 .LSOverride
