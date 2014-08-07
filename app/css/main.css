@@ -5774,7 +5774,7 @@ button.close {
   }
 }
 body {
-  background: url(../images/yosemite.jpg) top center no-repeat;
+  background: #71dfc5 url(../images/demo-01.png) top center no-repeat;
   margin-top: 60px;
 }
 .content {
