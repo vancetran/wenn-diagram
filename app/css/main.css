@@ -5774,7 +5774,7 @@ button.close {
   }
 }
 body {
-  background: #71dfc5 url(../images/demo-01.png) top center no-repeat;
+  background-color: #71dfc5;
   margin-top: 60px;
 }
 .content {
@@ -5784,4 +5784,7 @@ body {
 .content h1 {
   font-size: 75px;
   font-family: 'Poiret One', cursive;
+}
+.content img {
+  width: 100%;
 }
