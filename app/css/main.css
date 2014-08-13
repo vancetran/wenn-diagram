@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Poiret+One);
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -5774,17 +5773,18 @@ button.close {
   }
 }
 body {
-  background-color: #71dfc5;
   margin-top: 60px;
 }
-.content {
+.hero {
   text-align: center;
-  color: #fff;
+  background-color: #71dfc5;
 }
-.content h1 {
+.hero h1 {
   font-size: 75px;
-  font-family: 'Poiret One', cursive;
 }
-.content img {
+.hero img {
   width: 100%;
+}
+.content {
+  background: #fff;
 }
