@@ -9,4 +9,4 @@ CODENAMED: WENN DIAGRAM
 - Static site
 - Built on top of [Bootstrap](http://getboostrap.com)
 - Build process powered by [Grunt](http://gruntjs.com)
-- Hosted on [Github Pages](https://pages.github.com/), because free & fast, ¯\_(ツ)_/¯
+- Hosted on [Github Pages](https://pages.github.com/), because free & fast, `¯\_(ツ)_/¯`

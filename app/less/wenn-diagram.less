@@ -7,13 +7,16 @@ body {
 }
 
 .hero {
+  padding-top: 60px;
   text-align: center;
   background-color: #71dfc5;
   h1 {
     font-size: 75px;
   }
-  img {
-    width: 100%;
+  @media (max-width: @screen-md-min) {
+    img {
+      width: 100%;
+    }
   }
 }
 

@@ -5773,14 +5773,17 @@ button.close {
   }
 }
 .hero {
+  padding-top: 60px;
   text-align: center;
   background-color: #71dfc5;
 }
 .hero h1 {
   font-size: 75px;
 }
-.hero img {
-  width: 100%;
+@media (max-width: 992px) {
+  .hero img {
+    width: 100%;
+  }
 }
 .content {
   background: #fff;
