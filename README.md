@@ -1,5 +1,12 @@
-# Wenn Diagram
+# Makenzie & Vance's Wedding Site
 
-![Wenn Diagram logo](app/images/demo-01.png)
+CODENAMED: WENN DIAGRAM
 
-Indie-rock band/wedding site.
+![Makenzie & Vance header](app/images/demo-01.png)
+
+## Colophon
+
+- Static site
+- Built on top of [Bootstrap](http://getboostrap.com)
+- Build process powered by [Grunt](http://gruntjs.com)
+- Hosted on [Github Pages](https://pages.github.com/), because free & fast, ¯\_(ツ)_/¯
