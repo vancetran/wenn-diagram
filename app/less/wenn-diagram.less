@@ -1,15 +1,23 @@
 body {
   // margin-top: 60px
 }
-
+h1,h2,h3,h4 {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;  
+}
 .container {
   // width: 100%;
 }
 
-.hero {
+.hero.wrapper {
   padding-top: 60px;
+  //background: url(../images/yosemite.jpg) top center no-repeat;
+}
+
+.hero {
   text-align: center;
   background-color: #71dfc5;
+  margin-bottom: 20px;
   h1 {
     font-size: 75px;
   }
@@ -17,6 +25,20 @@ body {
     img {
       width: 100%;
     }
+  }
+}
+
+.grid-item {
+  margin-bottom: 20px;
+  &.portrait {
+    text-align: center;
+
+    @media (max-width: @screen-sm-min) {
+      img {
+        width: 75%;
+      }
+    }
+    
   }
 }
 

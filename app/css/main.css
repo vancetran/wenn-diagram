@@ -5772,10 +5772,20 @@ button.close {
     display: none !important;
   }
 }
-.hero {
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+.hero.wrapper {
   padding-top: 60px;
+}
+.hero {
   text-align: center;
   background-color: #71dfc5;
+  margin-bottom: 20px;
 }
 .hero h1 {
   font-size: 75px;
@@ -5783,6 +5793,17 @@ button.close {
 @media (max-width: 992px) {
   .hero img {
     width: 100%;
+  }
+}
+.grid-item {
+  margin-bottom: 20px;
+}
+.grid-item.portrait {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .grid-item.portrait img {
+    width: 75%;
   }
 }
 .content {
