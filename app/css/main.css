@@ -5801,13 +5801,19 @@ h4 {
 .grid-item.portrait {
   text-align: center;
 }
+.grid-item.portrait img {
+  width: auto;
+}
 @media (max-width: 768px) {
   .grid-item.portrait img {
     width: 75%;
   }
 }
+.grid-item img {
+  width: 100%;
+}
 #map {
-  height: 400px;
+  height: 416px;
 }
 @media (max-width: 992px) {
   #map {
