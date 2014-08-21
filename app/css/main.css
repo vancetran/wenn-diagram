@@ -5809,6 +5809,11 @@ h4 {
 #map {
   height: 400px;
 }
+@media (max-width: 992px) {
+  #map {
+    height: 200px;
+  }
+}
 .content {
   background: #fff;
 }

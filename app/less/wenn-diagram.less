@@ -42,7 +42,13 @@ h1,h2,h3,h4 {
   }
 }
 
-#map { height: 400px; }
+#map {
+  height: 400px;
+  @media (max-width: @screen-md-min) {
+    height: 200px;
+  }
+}
+
 .content {
   background: #fff;
 }
