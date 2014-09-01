@@ -27,6 +27,7 @@
     "bootstrap": "~3.1.1",
     "jquery": "~2.1.1",
     "animate.css": "~3.1.1",
-    "core-elements": "Polymer/core-elements#~0.3.3"
+    "masonry": "~3.1.5",
+    "imagesloaded": "~3.1.8"
   }
 }

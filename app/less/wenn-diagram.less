@@ -1,5 +1,17 @@
+// Colors
+@teal: #71dfc5;
+@pink: #ff4381;
+@slate: #417989;
+@yellow: #fff59f;
+
+// Bootstrap override
+// @grid-gutter-width: 10px;
+@well-bg: #fff;
+@well-border: none;
+
 body {
   // margin-top: 60px
+  background: #efefef;
 }
 h1,h2,h3,h4 {
   text-transform: uppercase;
@@ -11,24 +23,84 @@ h1,h2,h3,h4 {
 
 .hero.wrapper {
   padding-top: 60px;
-  //background: url(../images/yosemite.jpg) top center no-repeat;
-}
+  background: url(../images/amsterdam.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
-.hero {
-  text-align: center;
-  background-color: #71dfc5;
-  margin-bottom: 20px;
-  h1 {
-    font-size: 75px;
-  }
-  @media (max-width: @screen-md-min) {
-    img {
-      width: 100%;
+  .container {
+    text-align: center;
+    // background-color: #71dfc5;
+    margin-bottom: 20px;
+    h1 {
+      font-size: 75px;
+    }
+    @media (max-width: @screen-md-min) {
+      img {
+        width: 100%;
+      }
     }
   }
 }
 
+.paint-chip {
+  // color: #fff;
+  .make-sm-column(4);
+
+  .well {
+    box-shadow: 3px 3px 0px rgba(0,0,0,0.06);
+    border-radius: 0;
+    background: #aaa;
+    color: #fff;
+
+    h2 {
+      margin: -19px -19px 19px -19px;
+      padding: 10px 19px;
+      background: #aaa;
+      color: #fff;
+    }
+
+    &.paper{
+      color: #333;
+      background: #fff;
+    }
+
+    &.pink{
+      background: @pink;
+      &.paper {
+        background: #fff;
+        h2 {
+          background: @pink;
+        }
+      }
+    }
+
+    &.teal{
+      background: @teal;
+      &.paper {
+        background: #fff;
+        h2 {
+          background: @teal;
+        }
+      }
+    }
+
+    &.slate{
+      background: @slate;
+      &.paper {
+        background: #fff;
+        h2 {
+          background: @slate;
+        }
+      }
+    }
+  }
+
+}
+
 .grid-item {
+  .make-sm-column(4);
   margin-bottom: 20px;
   &.portrait {
     text-align: center;
@@ -54,5 +126,4 @@ h1,h2,h3,h4 {
 }
 
 .content {
-  background: #fff;
 }
