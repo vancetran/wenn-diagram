@@ -5814,7 +5814,20 @@ h4 {
     width: 33.33333333333333%;
   }
 }
+.paint-chip.wide {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .paint-chip.wide {
+    float: left;
+    width: 66.66666666666666%;
+  }
+}
 .paint-chip .well {
+  text-align: center;
   box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.06);
   border-radius: 0;
   background: #aaa;
@@ -5827,8 +5840,12 @@ h4 {
   color: #fff;
 }
 .paint-chip .well.paper {
+  text-align: left;
   color: #333;
   background: #fff;
+}
+.paint-chip .well.paper img {
+  width: 100%;
 }
 .paint-chip .well.pink {
   background: #ff4381;
