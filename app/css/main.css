@@ -5784,11 +5784,16 @@ h4 {
 }
 .hero.wrapper {
   padding-top: 60px;
-  background: url(../images/amsterdam.jpg) no-repeat center center;
+  background: url(../images/amsterdam.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+@media (max-width: 480px) {
+  .hero.wrapper {
+    background-attachment: scroll;
+  }
 }
 .hero.wrapper .container {
   text-align: center;
