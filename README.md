@@ -15,4 +15,5 @@ Everything old is cool and hip again, just like this Gif.
 - Static site
 - Built on top of [Bootstrap](http://getboostrap.com)
 - Build process powered by [Grunt](http://gruntjs.com)
+- Sweet iconset, "Nice Things" by [Chris Behr](https://twitter.com/chuckle_h0und)
 - Hosted on [Github Pages](https://pages.github.com/), because free & fast, `¯\_(ツ)_/¯`

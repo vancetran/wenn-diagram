@@ -5,7 +5,7 @@
 @yellow: #fff59f;
 
 // Bootstrap override
-// @grid-gutter-width: 10px;
+@grid-gutter-width: 20px;
 @well-bg: #fff;
 @well-border: none;
 
@@ -46,11 +46,7 @@ h1,h2,h3,h4 {
 
 .paint-chip {
   // color: #fff;
-  .make-sm-column(4);
-
-  &.wide {
-    .make-sm-column(8);
-  }
+  .make-sm-column(3);
 
   .well {
     text-align: center;
@@ -58,6 +54,11 @@ h1,h2,h3,h4 {
     border-radius: 0;
     background: #aaa;
     color: #fff;
+
+
+    img {
+      width: 100%;
+    }
 
     h2 {
       margin: -19px -19px 19px -19px;
@@ -75,6 +76,10 @@ h1,h2,h3,h4 {
       }
     }
 
+    &.icon {
+      // .make-lg-column(6);
+      // .make-md-column(6);
+    }
     &.pink{
       background: @pink;
       &.paper {
@@ -104,26 +109,28 @@ h1,h2,h3,h4 {
         }
       }
     }
-  }
 
-}
-
-.grid-item {
-  .make-sm-column(4);
-  margin-bottom: 20px;
-  &.portrait {
-    text-align: center;
-    img {
-      width: auto;
-    }
-    @media (max-width: @screen-sm-min) {
-      img {
-        width: 75%;
+    &.yellow{
+      background: @yellow;
+      &.paper {
+        background: #fff;
+        h2 {
+          background: @yellow;
+        }
       }
     }
   }
-  img {
-    width: 100%;
+  @media (max-width: @screen-xs-min) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
+.paint-chip.wide {
+  .make-sm-column(6);
+  @media (max-width: @screen-xs-min) {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -132,7 +139,4 @@ h1,h2,h3,h4 {
   @media (max-width: @screen-md-min) {
     height: 300px;
   }
-}
-
-.content {
 }
