@@ -23,7 +23,7 @@ h1,h2,h3,h4 {
 
 .hero.wrapper {
   padding-top: 60px;
-  background: url(../images/amsterdam.jpg) no-repeat center center fixed; 
+  background: url(../images/amsterdam.jpg) no-repeat center center scroll; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -31,6 +31,7 @@ h1,h2,h3,h4 {
 
   @media (max-width: @screen-xs-min) {
     background-attachment: scroll;
+    background-position: center center;
   }
 
   .container {
@@ -62,6 +63,10 @@ h1,h2,h3,h4 {
 
     img {
       width: 100%;
+    }
+
+    img.native {
+      width: auto;
     }
 
     h2 {

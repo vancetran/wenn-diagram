@@ -5784,7 +5784,7 @@ h4 {
 }
 .hero.wrapper {
   padding-top: 60px;
-  background: url(../images/amsterdam.jpg) no-repeat center center fixed;
+  background: url(../images/amsterdam.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -5793,6 +5793,7 @@ h4 {
 @media (max-width: 480px) {
   .hero.wrapper {
     background-attachment: scroll;
+    background-position: center center;
   }
 }
 .hero.wrapper .container {
@@ -5828,6 +5829,9 @@ h4 {
 }
 .paint-chip .well img {
   width: 100%;
+}
+.paint-chip .well img.native {
+  width: auto;
 }
 .paint-chip .well h2 {
   margin: -19px -19px 19px -19px;
