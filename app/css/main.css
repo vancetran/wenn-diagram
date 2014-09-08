@@ -5781,6 +5781,7 @@ h3,
 h4 {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
+  text-rendering: optimizeLegibility;
 }
 .hero.wrapper {
   padding-top: 60px;
@@ -5813,6 +5814,7 @@ h4 {
   min-height: 1px;
   padding-left: 10px;
   padding-right: 10px;
+  min-height: 0;
 }
 @media (min-width: 768px) {
   .paint-chip {
@@ -5923,6 +5925,9 @@ h4 {
 }
 #map {
   height: 416px;
+}
+#map .leaflet-popup {
+  font-size: 14px;
 }
 @media (max-width: 992px) {
   #map {
