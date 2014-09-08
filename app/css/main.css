@@ -5847,6 +5847,20 @@ h4 {
 .paint-chip .well.paper img {
   width: 100%;
 }
+.paint-chip .well.icon {
+  float: left;
+  width: 25%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media (min-width: 768px) {
+  .paint-chip .well.icon {
+    float: left;
+    width: 100%;
+  }
+}
 .paint-chip .well.pink {
   background: #ff4381;
 }
