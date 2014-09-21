@@ -143,6 +143,9 @@ h1,h2,h3,h4 {
 }
 .paint-chip.wide {
   .make-sm-column(6);
+  @media (max-width: @screen-sm-min) {
+    width: 100%; 
+  }
   @media (max-width: @screen-xs-min) {
     padding-left: 0;
     padding-right: 0;
@@ -156,6 +159,7 @@ h1,h2,h3,h4 {
   }
   @media (max-width: @screen-md-min) {
     height: 300px;
+    width: 100%;
   }
 }
 
