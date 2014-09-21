@@ -67,7 +67,8 @@ h1,h2,h3,h4 {
     }
 
     img.native {
-      width: auto;
+      //width: auto;
+      margin-bottom: 10px;
     }
 
     h2 {
@@ -89,6 +90,10 @@ h1,h2,h3,h4 {
     &.icon {
       .make-xs-column(3);
       .make-sm-column(12);
+
+      @media (max-width: @screen-xs-max) {
+        display: none;
+      }
     }
     &.pink{
       background: @pink;
@@ -152,4 +157,8 @@ h1,h2,h3,h4 {
   @media (max-width: @screen-md-min) {
     height: 300px;
   }
+}
+
+footer {
+  // border-top: 1px solid red;
 }

@@ -5833,7 +5833,7 @@ h4 {
   width: 100%;
 }
 .paint-chip .well img.native {
-  width: auto;
+  margin-bottom: 10px;
 }
 .paint-chip .well h2 {
   margin: -19px -19px 19px -19px;
@@ -5861,6 +5861,11 @@ h4 {
   .paint-chip .well.icon {
     float: left;
     width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .paint-chip .well.icon {
+    display: none;
   }
 }
 .paint-chip .well.pink {
