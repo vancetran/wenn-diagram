@@ -5922,6 +5922,11 @@ h4 {
     width: 50%;
   }
 }
+@media (max-width: 768px) {
+  .paint-chip.wide {
+    width: 100%;
+  }
+}
 @media (max-width: 480px) {
   .paint-chip.wide {
     padding-left: 0;
@@ -5937,5 +5942,6 @@ h4 {
 @media (max-width: 992px) {
   #map {
     height: 300px;
+    width: 100%;
   }
 }
