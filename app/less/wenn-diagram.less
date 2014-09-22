@@ -1,4 +1,4 @@
-// Colors
+// Colors 
 @teal: #71dfc5;
 @pink: #ff4381;
 @slate: #417989;
@@ -54,6 +54,9 @@ h1,h2,h3,h4 {
   // color: #fff;
   .make-sm-column(3);
   min-height: 0;
+  @media (max-width: @screen-sm-min) {
+    width: 100%; 
+  }
   .well {
     text-align: center;
     box-shadow: 3px 3px 0px rgba(0,0,0,0.06);
@@ -138,6 +141,9 @@ h1,h2,h3,h4 {
   @media (max-width: @screen-xs-min) {
     padding-left: 0;
     padding-right: 0;
+  }
+  .letter {
+    margin: -20% 0;
   }
 
 }
