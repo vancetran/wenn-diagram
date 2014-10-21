@@ -1,8 +1,8 @@
 var app = app || {};
 
 $( document ).ready(function() {
-	app.leaflet();
-	// app.doMasonry();
+	// app.leaflet();
+	app.doMasonry();
 });
 
 app.leaflet = function() {
