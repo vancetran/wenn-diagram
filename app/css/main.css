@@ -5776,13 +5776,17 @@ body {
   margin-top: 50px;
   background: #efefef;
 }
+.navbar-brand {
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  font-family: 'Montserrat', sans-serif;
+}
 h1,
 h2,
 h3,
 h4 {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
-  text-rendering: optimizeLegibility;
 }
 .hero.sub {
   height: 200px;
