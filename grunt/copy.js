@@ -1,8 +1,8 @@
 module.exports = {
   build: {
     files: [
-      // Copy just the index.html
-      { src: '<%= appconfig.src %>/index.html', dest: '<%= appconfig.dest %>/index.html', filter: 'isFile' },
+      // Copy all html files
+      { expand: true, cwd: '<%= appconfig.src %>',src: '*.html', dest: '<%= appconfig.dest %>/'},
       // Copy un-minified production JS
       { src: '.tmp/concat/js/production-min.js', dest: '<%= appconfig.dest %>/js/production.js', filter: 'isFile' },
       // Copy the CNAME file
