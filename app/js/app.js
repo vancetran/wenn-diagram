@@ -2,7 +2,7 @@ var app = app || {};
 
 $( document ).ready(function() {
 	app.leaflet();
-	app.doMasonry();
+	// app.doMasonry();
 });
 
 app.leaflet = function() {
