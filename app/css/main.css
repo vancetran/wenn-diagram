@@ -5784,6 +5784,14 @@ h4 {
   font-family: 'Montserrat', sans-serif;
   text-rendering: optimizeLegibility;
 }
+.hero.sub {
+  height: 200px;
+  margin-bottom: 20px;
+}
+.hero.sub h1 {
+  color: #fff;
+  margin-top: 0;
+}
 .hero.wrapper {
   padding-top: 60px;
   background: url(../images/amsterdam.jpg) no-repeat center center scroll;
@@ -5808,6 +5816,11 @@ h4 {
 @media (max-width: 992px) {
   .hero.wrapper .container img {
     width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .hero.wrapper .container h1 {
+    font-size: 40px;
   }
 }
 .paint-chip {

@@ -22,6 +22,15 @@ h1,h2,h3,h4 {
   // width: 100%;
 }
 
+.hero.sub {
+  height: 200px;
+  margin-bottom: 20px;
+  h1 {
+    color: #fff;
+    margin-top: 0;
+  }
+}
+
 .hero.wrapper {
   padding-top: 60px;
   background: url(../images/amsterdam.jpg) no-repeat center center scroll; 
@@ -45,6 +54,11 @@ h1,h2,h3,h4 {
     @media (max-width: @screen-md-min) {
       img {
         width: 100%;
+      }
+    }
+    @media (max-width: @screen-xs-min) {
+      h1 {
+        font-size: 40px;
       }
     }
   }
