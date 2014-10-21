@@ -5773,6 +5773,7 @@ button.close {
   }
 }
 body {
+  margin-top: 50px;
   background: #efefef;
 }
 h1,
