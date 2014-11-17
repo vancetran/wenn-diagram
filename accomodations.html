@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../assets/ico/favicon.ico">
 
-    <title>RSVP - Makenzie &amp; Vance</title>
+    <title>Accomodations - Makenzie &amp; Vance</title>
 
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css"/>
@@ -38,9 +38,9 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="/rsvp.html">RSVP</a></li>
+            <li><a href="/rsvp.html">RSVP</a></li>
             <li><a href="/venue.html">Venue</a></li>
-            <li><a href="/accomodations.html">Accomodations</a></li>
+            <li class="active"><a href="/accomodations.html">Accomodations</a></li>
             <li><a href="/gifts.html">Gifts</a></li>
             <li><a href="/music.html">Music</a></li>
           </ul>
@@ -52,7 +52,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1>RSVP</h1>
+            <h1>Accomodations</h1>
           </div>
         </div>
       </div><!-- /.container -->
@@ -61,36 +61,37 @@
     <div class="content container" role="main">
       <div class="row masonry">
         <div class="paint-chip">
-          <div class="well pink icon">
-            <img src="images/icons/mail.png">
+          <div class="well teal icon">
+            <img src="images/icons/snes.png">
           </div>
         </div>
         <div class="paint-chip wide">
           <div class="well pink paper">
-            <h2>Répondez s'il vous plaît</h2>
+            <h2>Hotels &amp; Comic-Con...</h2>
 
-            <img class="native" src="images/mv-roof.jpg" alt="Makenzie and Vance on a rooftop in Amsterdam">
-            <h3>July 12th, 2015</h3>
+            <p>Please be advised that Comic-con is the same weekend as the wedding, so please book early since hotel rooms can be in short supply when the nerds descend on San Diego.</p>
 
-            <p>Received your paper invite in the snail mail? Fabulous! Click below to RSVP.</p>
-            <a href="https://docs.google.com/forms/d/1noeqbvWAsZPrpCOWJ9Uj6Z3qQW4IFZpaj7y654mLh3w/viewform" class="btn btn-primary">RSVP Here</a>
+            <h3>Nearby Hotels</h3>
+            <ul>
+              <li><a href="http://www.hotellajolla.com/">Hotel La Jolla</a></li>
+              <li><a href="http://www.ljshoreshotel.com/">La Jolla Shores Hotel</a></li>
+              <li><a href="http://www.sheratonlajolla.com/">Sheraton La Jolla</a></li>
+              <li><a href="http://www.empress-hotel.com/">Empress Hotel</a></li>
+              <li><a href="http://www.lavalencia.com/">La Valencia</a></li>
+            </ul>
+
+            <p><a href="https://www.airbnb.com/">AirBnB</a> might also be a good option.</p>
           </div>
         </div>
+
         <div class="paint-chip">
           <div class="well teal icon">
-            <img src="images/icons/scarf.png">
+            <img src="images/icons/robot.png">
           </div>
         </div>
-        <div class="paint-chip">
-          <div class="well yellow icon">
-            <img src="images/icons/calendar.png">
-          </div>
-        </div>
-        <div class="paint-chip">
-          <div class="well pink icon">
-            <img src="images/icons/teacup.png">
-          </div>
-        </div>
+
+        
+        
       </div>
 
 
@@ -109,5 +110,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
     <script src="js/production.min.js"></script>
+    <script>
+    $( document ).ready(function() {
+      app.leaflet();
+      app.doMasonry();
+    });
+    </script>
   </body>
 </html>
