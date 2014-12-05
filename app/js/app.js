@@ -24,9 +24,10 @@ app.leaflet = function() {
 }
 
 app.doMasonry = function(){
-	var $msnryContainer = $('.masonry');
+  var container = document.querySelector('.masonry');
+	var msnry;
 
-	imagesLoaded( $msnryContainer, function() {
-		$msnryContainer.masonry();
-	});
+	imagesLoaded( container, function() {
+    msnry = new Masonry( container );
+  });
 }
