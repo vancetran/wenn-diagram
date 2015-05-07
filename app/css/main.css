@@ -5871,6 +5871,10 @@ h4 {
 }
 .paint-chip .well.paper img {
   width: 100%;
+  margin-bottom: 20px;
+}
+.paint-chip .well.paper img.letter {
+  margin: -20% 0;
 }
 .paint-chip .well.icon {
   float: left;
@@ -5932,9 +5936,6 @@ h4 {
     padding-left: 0;
     padding-right: 0;
   }
-}
-.paint-chip .letter {
-  margin: -20% 0;
 }
 .paint-chip.wide {
   position: relative;
