@@ -26,10 +26,7 @@
   "dependencies": {
     "bootstrap": "~3.1.1",
     "jquery": "~2.1.1",
-    "animate.css": "~3.1.1",
-    "masonry": "~3.1.5",
-    "imagesloaded": "~3.1.8",
-    "jquery-bridget": "~1.1.0"
+    "animate.css": "~3.1.1"
   },
   "resolutions": {
     "masonry": "~3.2.1"
