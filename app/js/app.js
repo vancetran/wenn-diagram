@@ -24,10 +24,10 @@ app.leaflet = function() {
 }
 
 app.doMasonry = function(){
-  var container = document.querySelector('.masonry');
+	var container = document.querySelector('.masonry');
 	var msnry;
 
 	imagesLoaded( container, function() {
-    msnry = new Masonry( container );
-  });
+		msnry = new Masonry( container );
+	});
 }
